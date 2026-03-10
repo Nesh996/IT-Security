@@ -6,7 +6,7 @@ Security Audit Report: Course 5 (IT Security)
 
 Submission Date: 13 February 2026
 
-Auditor: Nandipha
+Auditor: Nandipha Swana
 
 
  Executive Summary
