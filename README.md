@@ -3,6 +3,8 @@
 **Course:** IT Security – Defense Against the Digital Dark Arts  
 **Submission Date:** 13 February 2026  
 **Auditor: Nandipha
+
+
 Introduction
 In the current digital landscape, the "Defense Against the Digital Dark Arts" is not merely a course curriculum but a necessary practice for any IT professional. This repository documents a practical system security audit performed on a Windows-based workstation. The core objective of this project is to apply the principles of Defense in Depth—a strategy that layers security mechanisms so that if one fails, others are in place to mitigate the risk.
 
