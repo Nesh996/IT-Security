@@ -31,9 +31,12 @@ The purpose of this audit was to review key security settings on a Windows syste
 | Threat Protection | ⚠️ Ongoing | Identified "Actions recommended" in Windows Security under Account Protection. Configuration improvements are currently being addressed. |
 | Updates | ✅ Verified | Checked Windows Update settings and performed a system scan to verify that the operating system is updated. |
 
-User authentication protects the system from unauthorized access. During the audit, the account login settings were reviewed to confirm that password protection is enabled.
+1. Identity & Authentication
 
-Strong authentication is important because it ensures that only authorized users can access the computer.
+
+User authentication serves as the first line of defense for the system, ensuring that only verified users can interact with the workstation. During the audit, account sign-in configurations were reviewed to verify that password-based protection is active and enforced.
+
+The implementation of strong, unique credentials is critical to mitigating the risk of unauthorized access. It is recommended that password hints, if utilized, are kept obscure to prevent social engineering or credential guessing attacks.
 
 <img width="1154" height="729" alt="course5 111" src="https://github.com/user-attachments/assets/2f80af3d-5bc2-4862-b0a9-ae23e8561570" />
 
