@@ -19,12 +19,11 @@ The audit follows the principle of Defense in Depth, which means using multiple 
 The purpose of this audit was to review key security settings on a Windows system and identify areas where improvements can be made.
 
  Security Audit Checklist
-Security Control	Status	Audit Findings
-Authentication	✅ Verified	Strong password protection is enabled for the user account.
-Firewall	✅ Verified	Firewall protection is active and monitoring network traffic.
-Threat Protection	⚠️ Needs Attention	Some account protection settings still require configuration.
-OS Updates	❌ Critical Issue	The operating system has reached End of Support and no longer receives security updates.
- Detailed Audit Findings
+Security Control,Status,Audit Findings / Actions Taken
+Authentication,✅ Verified,"Implemented strong, unique local account credentials. Password complexity requirements met."
+Firewall,✅ Verified,"Confirmed status of Domain, Private, and Public network profiles to prevent unauthorized access."
+Threat Protection,⚠️ Ongoing,"Identified ""Actions recommended"" in Windows Security (Account Protection). Currently in remediation."
+Updates,✅ Verified,System scan performed to ensure OS is up-to-date.
 1️⃣ Identity & Authentication
 
 User authentication protects the system from unauthorized access. During the audit, the account login settings were reviewed to confirm that password protection is enabled.
@@ -58,7 +57,8 @@ Keeping software updated is essential for maintaining security. During the audit
 
 The system has reached End of Support, meaning it no longer receives security updates. This increases the risk of vulnerabilities because new security patches are no longer provided.
 
-(Insert Screenshot – Windows Update Status)
+<img width="804" height="683" alt="image" src="https://github.com/user-attachments/assets/ca07c9f3-a500-43dc-b0d9-f44651976df4" />
+
 
  Future Recommendations
 
@@ -73,7 +73,7 @@ Regular backups will help recover important data in case of system failure or cy
 Upgrade the Operating System
 Install a supported and updated version of Windows to ensure the system continues receiving security patches.
 
-🏁 Conclusion
+ Conclusion
 
 The security audit confirmed that some important protections such as firewall and authentication are working correctly. However, the outdated operating system represents a major security concern.
 
