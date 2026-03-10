@@ -19,12 +19,12 @@ The audit follows the principle of Defense in Depth, which means using multiple 
 The purpose of this audit was to review key security settings on a Windows system and identify areas where improvements can be made.
 
  Security Audit Checklist
-Security Control,Status,Audit Findings / Actions Taken
-Authentication,✅ Verified,"Implemented strong, unique local account credentials. Password complexity requirements met."
-Firewall,✅ Verified,"Confirmed status of Domain, Private, and Public network profiles to prevent unauthorized access."
-Threat Protection,⚠️ Ongoing,"Identified ""Actions recommended"" in Windows Security (Account Protection). Currently in remediation."
-Updates,✅ Verified,System scan performed to ensure OS is up-to-date.
-1️⃣ Identity & Authentication
+| Security Control | Status | Audit Findings / Actions Taken |
+|------------------|--------|--------------------------------|
+| Authentication | ✅ Verified | Implemented strong, unique local account credentials. Password complexity requirements met. |
+| Firewall | ✅ Verified | Confirmed that Domain, Private, and Public network firewall profiles are active to prevent unauthorized access. |
+| Threat Protection | ⚠️ Ongoing | Identified "Actions recommended" in Windows Security under Account Protection. Configuration improvements are currently being addressed. |
+| Updates | ✅ Verified | Checked Windows Update settings and performed a system scan to verify that the operating system is updated. |
 
 User authentication protects the system from unauthorized access. During the audit, the account login settings were reviewed to confirm that password protection is enabled.
 
