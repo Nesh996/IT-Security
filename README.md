@@ -57,10 +57,11 @@ During the audit, the firewall status was checked through the Control Panel. The
 
 
 4️⃣ Software & Update Lifecycle
+Keeping software updated is the most fundamental aspect of defensive security. During the audit, the Windows Update settings were reviewed to determine if the system is receiving active security patches.
 
-Keeping software updated is essential for maintaining security. During the audit, the Windows Update settings were reviewed.
+Audit Finding: The system has reached "End of Support." This means it is no longer receiving security updates, leaving it exposed to known and future vulnerabilities that will never be patched.
 
-The system has reached End of Support, meaning it no longer receives security updates. This increases the risk of vulnerabilities because new security patches are no longer provided.
+Security Impact: Running an unsupported OS is a critical risk. Without regular patches, the system is susceptible to exploit kits and malware that target older, unpatched versions of Windows.
 
 <img width="804" height="683" alt="image" src="https://github.com/user-attachments/assets/ca07c9f3-a500-43dc-b0d9-f44651976df4" />
 
