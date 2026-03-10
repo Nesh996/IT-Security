@@ -1,7 +1,7 @@
 Security Audit Report: Course 5 (IT Security)
 
 
-Course: IT Security – Defense Against the Digital Dark Arts
+ IT Security – Defense Against the Digital Dark Arts
 
 
 Submission Date: 13 February 2026
