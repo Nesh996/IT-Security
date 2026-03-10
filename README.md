@@ -38,7 +38,8 @@ User authentication serves as the first line of defense for the system, ensuring
 
 The implementation of strong, unique credentials is critical to mitigating the risk of unauthorized access. It is recommended that password hints, if utilized, are kept obscure to prevent social engineering or credential guessing attacks.
 
-<img width="1154" height="729" alt="course5 111" src="https://github.com/user-attachments/assets/2f80af3d-5bc2-4862-b0a9-ae23e8561570" />
+<img width="1088" height="715" alt="image" src="https://github.com/user-attachments/assets/f57300d9-78d8-45f3-ac8d-eaab937f2c1e" />
+
 
 
 2️⃣ Endpoint Security & System Health
