@@ -57,6 +57,7 @@ During the audit, the firewall status was checked through the Control Panel. The
 
 
 4️⃣ Software & Update Lifecycle
+
 Keeping software updated is the most fundamental aspect of defensive security. During the audit, the Windows Update settings were reviewed to determine if the system is receiving active security patches.
 
 Audit Finding: The system has reached "End of Support." This means it is no longer receiving security updates, leaving it exposed to known and future vulnerabilities that will never be patched.
