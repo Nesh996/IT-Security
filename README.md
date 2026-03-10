@@ -40,7 +40,17 @@ Strong authentication is important because it ensures that only authorized users
 
 2️⃣ Endpoint Security & System Health
 
-The Windows Security dashboard was checked to review the overall health of the system. The system currently shows no active threats, but the Account Protection section requires additional configuration to fully secure the account.
+
+The Windows Security dashboard serves as the central command for monitoring system health and threat protection. An audit of this interface was performed to evaluate the endpoint's current security posture.
+
+Audit Observations:
+
+General Health: The system reports no active threats, indicating that real-time protection is functional.
+
+Account Protection: The audit identified that the 'Account Protection' area requires remediation, as it is currently flagged with 'Actions recommended'.
+
+Analysis & Impact:
+While critical active threats are not present, leaving 'Account Protection' unconfigured exposes the system to identity-based risks. Prioritizing the configuration of identity verification methods (such as Windows Hello or Dynamic Lock) is essential for hardening the endpoint against unauthorized access.
 
 <img width="960" height="782" alt="image" src="https://github.com/user-attachments/assets/e63e10e3-089c-421e-bb48-84a2681afbc9" />
 
