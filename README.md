@@ -30,7 +30,8 @@ Ensuring robust identity protection is the primary barrier against unauthorized 
 
 ### 2. Endpoint Security & System Health
 The Windows Security dashboard provides a centralized view of system health and potential vulnerabilities.
-<img width="1076" height="726" alt="image" src="https://github.com/user-attachments/assets/be8b467b-f62b-4e46-8f74-0bf714ace0ca" />
+<img width="960" height="782" alt="image" src="https://github.com/user-attachments/assets/2e5e9594-a218-4075-be9a-55fc49160022" />
+
 
 
 ### 3. Network Perimeter Security (Firewall)
