@@ -1,48 +1,82 @@
-# Security Audit Report: Course 5 (IT Security)
+Security Audit Report: Course 5 (IT Security)
 
-**Course:** IT Security – Defense Against the Digital Dark Arts  
-**Submission Date:** 13 February 2026  
-**Auditor: Nandipha
+Course: IT Security – Defense Against the Digital Dark Arts
+Submission Date: 13 February 2026
+Auditor: Nandipha
 
+ Executive Summary
 
-Introduction
-In the current digital landscape, the "Defense Against the Digital Dark Arts" is not merely a course curriculum but a necessary practice for any IT professional. This repository documents a practical system security audit performed on a Windows-based workstation. The core objective of this project is to apply the principles of Defense in Depth—a strategy that layers security mechanisms so that if one fails, others are in place to mitigate the risk.
+This report presents the results of a basic security audit performed on a Windows computer. The purpose of the audit was to check important security features such as password protection, firewall status, threat protection, and operating system updates.
 
-<img width="2048" height="1639" alt="image" src="https://github.com/user-attachments/assets/dd7f0a0f-27f5-43bd-826a-6e7f9fcdb08f" />
+The audit found that several core security features are working correctly, including authentication and firewall protection. However, the operating system is outdated and no longer receives security updates, which creates a potential security risk. Some security settings also require further configuration to improve system protection.
 
+ Introduction
+
+Cybersecurity is an important part of protecting computer systems from threats such as malware, hackers, and data theft. This audit was performed as part of the course IT Security – Defense Against the Digital Dark Arts.
+
+The audit follows the principle of Defense in Depth, which means using multiple layers of security to protect a system. If one security measure fails, other protections are still in place to reduce the risk.
+
+The purpose of this audit was to review key security settings on a Windows system and identify areas where improvements can be made.
 
  Security Audit Checklist
+Security Control	Status	Audit Findings
+Authentication	✅ Verified	Strong password protection is enabled for the user account.
+Firewall	✅ Verified	Firewall protection is active and monitoring network traffic.
+Threat Protection	⚠️ Needs Attention	Some account protection settings still require configuration.
+OS Updates	❌ Critical Issue	The operating system has reached End of Support and no longer receives security updates.
+ Detailed Audit Findings
+1️⃣ Identity & Authentication
 
-| Security Control | Status | Audit Findings |
-| :--- | :--- | :--- |
-| **Authentication** | ✅ Verified | Strong, unique local account credentials. |
-| **Firewall** | ✅ Verified | Profile status confirmed across all domains. |
-| **Threat Protection** | ⚠️ Ongoing | Remediation of account protection settings. |
+User authentication protects the system from unauthorized access. During the audit, the account login settings were reviewed to confirm that password protection is enabled.
 
----
+Strong authentication is important because it ensures that only authorized users can access the computer.
 
-## 🔍 Detailed Audit Findings
-
-### 1. Identity & Authentication
-Ensuring robust identity protection is the primary barrier against unauthorized access.
-<img width="1154" height="729" alt="image" src="https://github.com/user-attachments/assets/5731adff-b00e-4c65-838d-8cf7877c5350" />
-
-
-### 2. Endpoint Security & System Health
-The Windows Security dashboard provides a centralized view of system health and potential vulnerabilities.
-<img width="960" height="782" alt="image" src="https://github.com/user-attachments/assets/2e5e9594-a218-4075-be9a-55fc49160022" />
+<img width="1154" height="729" alt="course5 111" src="https://github.com/user-attachments/assets/2f80af3d-5bc2-4862-b0a9-ae23e8561570" />
 
 
+2️⃣ Endpoint Security & System Health
 
-### 3. Network Perimeter Security (Firewall)
-The firewall serves as the first line of defense against network-based threats.
-<img width="804" height="683" alt="image" src="https://github.com/user-attachments/assets/a3627de1-f223-4bc9-92e0-0a59a37cda49" />
+The Windows Security dashboard was checked to review the overall health of the system. The system currently shows no active threats, but the Account Protection section requires additional configuration to fully secure the account.
+
+<img width="960" height="782" alt="image" src="https://github.com/user-attachments/assets/e63e10e3-089c-421e-bb48-84a2681afbc9" />
 
 
----
+3️⃣ Network Perimeter Security (Firewall)
+
+The firewall acts as a protective barrier between the computer and the internet. It monitors incoming and outgoing network traffic and blocks unauthorized connections.
+
+During the audit, the firewall status was checked through the Control Panel. The system shows that firewall protection is enabled. However, firewall management is currently handled by Avast Antivirus, which is responsible for network security rules.
+
+<img width="817" height="582" alt="image" src="https://github.com/user-attachments/assets/8d8aaa0a-9791-4976-adee-a349edcecc80" />
+
+<img width="780" height="566" alt="image" src="https://github.com/user-attachments/assets/bc128a56-6610-464f-89aa-7baf6bcbf6b5" />
+
+
+4️⃣ Software & Update Lifecycle
+
+Keeping software updated is essential for maintaining security. During the audit, the Windows Update settings were reviewed.
+
+The system has reached End of Support, meaning it no longer receives security updates. This increases the risk of vulnerabilities because new security patches are no longer provided.
+
+(Insert Screenshot – Windows Update Status)
+
  Future Recommendations
-* **Implement BitLocker:** Enable full-disk encryption to protect data at rest.
-* **Establish Backups:** Configure routine backups to mitigate data loss risks.
-* **Scheduled Audits:** Conduct monthly reviews of the Windows Security dashboard.
- Executive Summary
-The results of this audit demonstrate that while baseline security measures—such as firewall activation and password policy implementation—are currently operational, system hardening is a continuous process rather than a static state.
+
+To improve system security, the following actions are recommended:
+
+Enable BitLocker Encryption
+This will protect sensitive data by encrypting the entire hard drive.
+
+Set Up Regular Backups
+Regular backups will help recover important data in case of system failure or cyber attacks.
+
+Upgrade the Operating System
+Install a supported and updated version of Windows to ensure the system continues receiving security patches.
+
+🏁 Conclusion
+
+The security audit confirmed that some important protections such as firewall and authentication are working correctly. However, the outdated operating system represents a major security concern.
+
+By updating the system, configuring additional security settings, and maintaining regular security checks, the overall protection of the computer can be significantly improved.
+
+This audit demonstrates the importance of regularly reviewing system security to defend against digital threats.
