@@ -47,9 +47,15 @@ The Windows Security dashboard was checked to review the overall health of the s
 
 3️⃣ Network Perimeter Security (Firewall)
 
-The firewall acts as a protective barrier between the computer and the internet. It monitors incoming and outgoing network traffic and blocks unauthorized connections.
 
-During the audit, the firewall status was checked through the Control Panel. The system shows that firewall protection is enabled. However, firewall management is currently handled by Avast Antivirus, which is responsible for network security rules.
+The firewall acts as a protective barrier between the computer and the internet. It monitors incoming and outgoing network traffic and blocks unauthorized connections to ensure a secure network perimeter.
+
+Audit Observation:
+During the audit, the firewall status was verified through the Control Panel. The inspection confirmed that firewall protection is fully enabled and active.
+
+Management Status: It was observed that firewall management is currently delegated to Avast Antivirus rather than the default Windows Defender settings.
+
+Security Implication: Because firewall rules and policies are governed by the Avast suite, it is essential to monitor the Avast interface for network-specific security configurations. This confirms that the third-party application is the current "source of truth" for all active network security rules on this workstation.
 
 <img width="817" height="582" alt="image" src="https://github.com/user-attachments/assets/8d8aaa0a-9791-4976-adee-a349edcecc80" />
 
