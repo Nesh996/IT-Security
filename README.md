@@ -9,7 +9,7 @@ In the current digital landscape, the "Defense Against the Digital Dark Arts" is
 <img width="2048" height="1639" alt="image" src="https://github.com/user-attachments/assets/dd7f0a0f-27f5-43bd-826a-6e7f9fcdb08f" />
 
 
-## 📋 Security Audit Checklist
+ Security Audit Checklist
 
 | Security Control | Status | Audit Findings |
 | :--- | :--- | :--- |
@@ -37,10 +37,9 @@ The firewall serves as the first line of defense against network-based threats.
 
 
 ---
-
-## 🚀 Future Recommendations
+ Future Recommendations
 * **Implement BitLocker:** Enable full-disk encryption to protect data at rest.
 * **Establish Backups:** Configure routine backups to mitigate data loss risks.
 * **Scheduled Audits:** Conduct monthly reviews of the Windows Security dashboard.
-## 🛡️ Executive Summary
-This report documents a baseline security audit performed on a Windows workstation. The objective was to evaluate existing defense mechanisms, identify vulnerabilities, and apply hardening configurations in alignment with security best practices.
+ Executive Summary
+The results of this audit demonstrate that while baseline security measures—such as firewall activation and password policy implementation—are currently operational, system hardening is a continuous process rather than a static state.
